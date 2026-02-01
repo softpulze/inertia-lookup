@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace SoftPulze\InertiaLookup;
 
-class InertiaLookup {}
+final class InertiaLookup {}

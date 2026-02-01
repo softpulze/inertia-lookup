@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace SoftPulze\InertiaLookup\Facades;
 
 use Illuminate\Support\Facades\Facade;
@@ -7,7 +9,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @see \SoftPulze\InertiaLookup\InertiaLookup
  */
-class InertiaLookup extends Facade
+final class InertiaLookup extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
