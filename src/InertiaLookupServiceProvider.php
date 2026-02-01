@@ -2,9 +2,9 @@
 
 namespace SoftPulze\InertiaLookup;
 
+use SoftPulze\InertiaLookup\Commands\InertiaLookupCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SoftPulze\InertiaLookup\Commands\InertiaLookupCommand;
 
 class InertiaLookupServiceProvider extends PackageServiceProvider
 {
