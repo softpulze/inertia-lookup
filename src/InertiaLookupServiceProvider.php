@@ -17,9 +17,6 @@ class InertiaLookupServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('inertia-lookup')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_inertia_lookup_table')
-            ->hasCommand(InertiaLookupCommand::class);
+            ->hasConfigFile();
     }
 }
