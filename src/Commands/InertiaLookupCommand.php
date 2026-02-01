@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace SoftPulze\InertiaLookup\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class InertiaLookupCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'inertia-lookup';
 
     public $description = 'My command';
 
