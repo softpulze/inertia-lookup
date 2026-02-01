@@ -1,11 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace SoftPulze\InertiaLookup;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class InertiaLookupServiceProvider extends PackageServiceProvider
+final class InertiaLookupServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
